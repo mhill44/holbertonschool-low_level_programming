@@ -1,1 +1,0 @@
-Here is the readme for the 0x00-Hello_world assignment by matt h
