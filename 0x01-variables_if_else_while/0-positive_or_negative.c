@@ -2,18 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main()
-{
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-// just makes the random number have a value and says waht to do . from my 
-//understanding rand is the function built in to c for random numbers
-//heres what i want the program to do
+int main() {
+  int n;
+  srand(time(0));
+  n = rand() - RAND_MAX / 2;
 
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else
-		printf("%d is negative\n", n);
+  if (n > 0)
+    printf("%d is positive\n", n);
+  else if (n == 0)
+    printf("%d is zero\n", n);
+  else
+    printf("%d is negative\n", n);
+}
