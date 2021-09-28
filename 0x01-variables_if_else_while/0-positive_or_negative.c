@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(0)
+int main()
 {
 int n;
 // i am telling c im making an integer variable and calling it n
@@ -18,5 +18,3 @@ n = rand() - RAND_MAX / 2;
 		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
-
-	
