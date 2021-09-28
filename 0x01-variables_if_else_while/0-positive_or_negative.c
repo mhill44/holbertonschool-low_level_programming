@@ -5,7 +5,6 @@
 int main()
 {
 int n;
-// i am telling c im making an integer variable and calling it n
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 // just makes the random number have a value and says waht to do . from my 
