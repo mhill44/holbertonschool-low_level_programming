@@ -32,6 +32,7 @@ int main(void)
 
 	return (0);
 }
-// output: [Running] cd "/var/folders/tq/4rsnm_z1113g3dnd_7bwy7t80000gn/T/" && gcc tempCodeRunnerFile.c -o tempCodeRunnerFile && "/var/folders/tq/4rsnm_z1113g3dnd_7bwy7t80000gn/T/"tempCodeRunnerFile
-//Last digit of 868009538 is 8 and is greater than 5
-//[Done] exited with code=0 in 1.013 seconds
+/* output: [Running] cd "/var/folders/tq/4rsnm_z1113g3dnd_7bwy7t80000gn/T/" && gcc tempCodeRunnerFile.c -o tempCodeRunnerFile && "/var/folders/tq/4rsnm_z1113g3dnd_7bwy7t80000gn/T/"tempCodeRunnerFile
+* Last digit of 868009538 is 8 and is greater than 5
+* [Done] exited with code=0 in 1.013 seconds 
+*/
