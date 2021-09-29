@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <math.h>
 /*
-//inside main, print 0-9 and also assign letters so
- // [a-f]
- //Return: (0) Success
+* inside main, print 0-9 and also assign letters so
+* [a-f]
+* Return: (0) Success
  */
 int main(void)
 {
