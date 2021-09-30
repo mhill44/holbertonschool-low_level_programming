@@ -5,9 +5,9 @@
 /**
 * prints _putchar using the defined _putchar from main.h
 */
-void main int(void)
+void main(void)
 {
 _putchar('d');
 _putchar('\n');
-return (0);
+return 0;
 }
