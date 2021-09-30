@@ -5,7 +5,7 @@
 /*
 * Return: lowercase alphabet in line from a-z
 */
-void print_alphabet(void)
+void print_alphabet(void);
 {
     char c;
     c = 'a'
