@@ -5,6 +5,7 @@
 int main()
 {
     char az;
+    char ch;
 
     printf("Alphabets from a - z are: \n");
     for(az ='a'; az <='z'; az++)
