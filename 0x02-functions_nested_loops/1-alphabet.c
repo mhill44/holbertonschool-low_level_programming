@@ -6,12 +6,14 @@
 * Return: lowercase alphabet in line from a-z
 */
 void print_alphabet(void);
+{
     char c;
+    char a;
+    a = 0
     c = 'a'
-    {
 while (c <= 'z'){
     _putchar (c);
     c++;
 }
-_putchar('n');
+_putchar('a');
 }
