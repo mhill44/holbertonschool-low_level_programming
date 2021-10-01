@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-/**
- * main is always entry point
- * Write a program that prints the alphabet in lowercase, followed by a new line.
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	char i;
-
-	for (i = 'a'; i <= 'z'; i++){
-		putchar(i);
-	}
-	return (0);
+int main(void) {
+  int n;
+  srand(time(0));
+  n = rand() - RAND_MAX / 2;
 }
+  if (n > 0){
+    printf('%d is positive\n', n;)
+  else if ('n == '0')'
+    printf('%d is zero\', n')
+  else
+    printf('%d is negative\n', n)
+  }
