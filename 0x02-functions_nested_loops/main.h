@@ -1,6 +1,3 @@
-#ifndef HOLBERTON_H_INCLUDED
-#define HOLBERTON_H_INCLUDED
-
 #define HOLBERTON_H
 
 #include <stdio.h>
@@ -20,5 +17,3 @@ void jack_bauer (void);
 void times_table (void);
 int add (int, int);
 void print_to_98 (int n);
-
-#endif // HOLBERTON_H_INCLUDED
