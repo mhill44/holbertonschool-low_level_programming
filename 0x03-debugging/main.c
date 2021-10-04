@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int _putchar
+int _putchar(int n);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int islower(int c);
@@ -18,4 +18,4 @@ int add (int, int);
 void print_to_98 (int n);
 void positive_or_negative(int i);
 
-#endif HOLBERTON_H
+#endif
