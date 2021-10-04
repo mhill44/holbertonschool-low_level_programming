@@ -1,16 +1,21 @@
-#include "holberton.h"
+#ifndef HOLBERTON_H_INCLUDED
+#define HOLBERTON_H_INCLUDED
+#define HOLBERTON_H
 
-/**
-* main - tests function that prints if integer is positive or negative
-* Return: 0
-*/
+#include <stdio.h>
+#include "main.h"
 
-int main(void)
-{
-        int x;
+int _putchar
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int islower(int c);
+int isalpha(int c);
+int print_sign(int n);
+int print_last_digit(int);
+void jack_bauer (void);
+void times_table (void);
+int add (int, int);
+void print_to_98 (int n);
+void positive_or_negative(int i);
 
-        x = 42;
-        positive_or_negative(x);
-
-        return (0);
-}
+#endif HOLBERTON_H
