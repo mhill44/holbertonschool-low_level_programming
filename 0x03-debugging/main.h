@@ -3,7 +3,6 @@
 #define HOLBERTON_H
 
 #include <stdio.h>
-#include "main.h"
 
 int _putchar(int n);
 void print_alphabet(void);
