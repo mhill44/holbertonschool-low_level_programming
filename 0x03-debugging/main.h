@@ -3,6 +3,7 @@
 #define HOLBERTON_H
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int _putchar(int n);
 void print_alphabet(void);
@@ -11,10 +12,11 @@ int islower(int c);
 int isalpha(int c);
 int print_sign(int n);
 int print_last_digit(int);
-void jack_bauer (void);
-void times_table (void);
-int add (int, int);
-void print_to_98 (int n);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
 void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
 
 #endif
