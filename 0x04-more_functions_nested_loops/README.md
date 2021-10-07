@@ -1,1 +1,1 @@
-mhill44 doing the 0x04 assignment
+mhill44 doling 0x04 assignment
