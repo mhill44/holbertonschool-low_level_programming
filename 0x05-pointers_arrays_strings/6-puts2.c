@@ -6,7 +6,7 @@
 /**
 * puts2- prints out every other character of a string
 * @str: the string to print
-* Return: void returns nothing(/* arguments
+* Return: void returns nothing
 */
 void puts2(char *str)
 {
