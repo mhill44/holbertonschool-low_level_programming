@@ -3,10 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
-/*
+/**
  * swap_int - switch the values of two integers
- * @: the first integer to swap
- * b: the second integer to swap
+ * @a: the first integer to swap
+ * @b: the second integer to swap
+ * Return: returns void
  */
 void swap_int(int *a, int *b)
 {
