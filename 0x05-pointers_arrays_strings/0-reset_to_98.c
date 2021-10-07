@@ -3,9 +3,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
-/*
+/**
  * reset_to_98 - update the value of n by pointing to 98
- * *n: pointer to an int to update
+ * @n: pointer to an int to update
+ * Return: returns void
  */
 void reset_to_98(int *n)
 {
