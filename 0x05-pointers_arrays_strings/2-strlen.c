@@ -5,7 +5,7 @@
 #include <stddef.h>
 /**
  * _strlen - length of a string
- * *s: the string to check
+ * @s: the string to check
  * Return: length of the string
  */
 int _strlen(char *s)
