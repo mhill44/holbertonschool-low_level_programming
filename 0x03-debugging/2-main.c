@@ -3,7 +3,7 @@
 #include "holberton.h"
 /**
 * main - prints the largest of 3 integers
-* Return: 0
+* Return: returns zero even though void
 */
 int main(void)
 {
