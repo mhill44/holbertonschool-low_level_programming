@@ -1,0 +1,2 @@
+mhill44 second initial commit. my stupid finger ruined the grading of my original work, i had accidentally named it 0x06-_pointers_arrays_strings with an accidental extra punctuation 
+because my finger messed up. I am actually very upset about this. i worked HARD all. day. and. all. night. and even skipped a very important event and now it didnt even grade. i think its extremely messed up that i dont have any way to go fix this and get the credit for the work i put in
