@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
-* _strlen - length of a string
+* _strlen: function finds the length of a string
 * @s: the string to check
 * Return: returns the length of the string
 */
@@ -22,7 +22,7 @@ return (length);
 * _strncat: function appends two strings together
 * @src: string 1
 * @dest: string 2
-* @n: is the number of bytes in src
+* @n: the number of bytes in src
 * Return: returns a pointer to the new string dest
 */
 char *_strncat(char *dest, char *src, int n)
