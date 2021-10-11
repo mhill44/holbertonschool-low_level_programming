@@ -4,11 +4,11 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
- * _strcat - concatenates two strings
- * @src: the first string
- * @dest: the second string
- * Return: returns the dest string
- */
+* _strcat - concatenates two strings
+* @src: the first string
+* @dest: the second string
+* Return: returns the dest string
+*/
 char *_strcat(char *dest, char *src)
 {
 int len = _strlen(dest);
