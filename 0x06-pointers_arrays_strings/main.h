@@ -1,9 +1,7 @@
-#ifndef HOLBERTON_H_INCLUDED
-#define HOLBERTON_H_INCLUDED
+#ifndef HOLBERTON_H
 #define HOLBERTON_H
-
 #include <stdio.h>
-
+#include "holberton.h"
 /**
 * void positive_or_negative(int i);
 * #endif HOLBERTON_H
@@ -42,4 +40,4 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
 
-#endif
+#endif /* HOLBERTON_H */
