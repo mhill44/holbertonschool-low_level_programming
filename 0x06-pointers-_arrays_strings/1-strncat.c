@@ -4,12 +4,12 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
- * _strncat - concatenates two strings
- * @src: string 1
- * @dest: string 2
- * @n: is the number of bytes in src
- * Return: returns a pointer to the resulting string dest
- */
+* _strncat - concatenates two strings
+* @src: string 1
+* @dest: string 2
+* @n: is the number of bytes in src
+* Return: returns a pointer to the resulting string dest
+*/
 char *_strncat(char *dest, char *src, int n)
 {
 int i;
