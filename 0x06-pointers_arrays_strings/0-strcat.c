@@ -4,12 +4,12 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
-* _strcat - concatenates two strings
+* _strcat: function appends two strings
 * @src: the first string
 * @dest: the second string
 * Return: returns the dest string
 */
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src);
 {
 int len = _strlen(dest);
 int i;
@@ -23,7 +23,7 @@ return (dest);
 * @s: the string to check
 * Return: returns length of the string
 */
-int _strlen(char *s)
+int _strlen(char *s);
 {
 int length;
 length = 0;
