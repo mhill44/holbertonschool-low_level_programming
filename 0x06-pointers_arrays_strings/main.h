@@ -1,6 +1,8 @@
-#include "holberton.h"
+#ifndef HOLBERTON_H_INCLUDED
+#define HOLBERTON_H_INCLUDED
+#define HOLBERTON_H
 #include <stdio.h>
-#include <stddef.h>
+#include <stdlib.h>
 /**
 * void positive_or_negative(int i);
 * #endif HOLBERTON_H
