@@ -7,9 +7,9 @@
 * _strcat: function appends two strings
 * @src: the first string
 * @dest: the second string
-* Return: returns the dest string
+* Return: returns dest
 */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 int len = _strlen(dest);
 int i;
@@ -23,7 +23,7 @@ return (dest);
 * @s: the string to check
 * Return: returns length of the string
 */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 int length;
 length = 0;
