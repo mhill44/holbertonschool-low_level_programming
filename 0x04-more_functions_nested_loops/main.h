@@ -1,8 +1,8 @@
+#ifndef HOLBERTON_H
 #define HOLBERTON_H
 #include <stdio.h>
-#include <stddef.h>
-/*#
-* void positive_or_negative(int i);
+#include "holberton.h"
+/**
 * #endif HOLBERTON_H
 */
 int _putchar(char c);
@@ -14,6 +14,7 @@ int print_sign(int n);
 int print_last_digit(int);
 void jack_bauer (void);
 void times_table (void);
+void positive_or_negative(int i);
 int add (int, int);
 void print_to_98 (int n);
 void reset_to_98(int *n);
@@ -33,3 +34,5 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
+
+#endif
