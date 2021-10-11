@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
+* void positive_or_negative(int i);
 * #endif HOLBERTON_H
 */
 int _putchar(char c);
@@ -14,7 +15,6 @@ int print_sign(int n);
 int print_last_digit(int);
 void jack_bauer (void);
 void times_table (void);
-void positive_or_negative(int i);
 int add (int, int);
 void print_to_98 (int n);
 void reset_to_98(int *n);
@@ -39,3 +39,5 @@ int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
+
+#endif
