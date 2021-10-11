@@ -4,10 +4,9 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
-* rot13 - encodes a string by simple letter substitution.
-* It replaces a letter with the 13th letter after it, in the alphabet.
+* rot13 - encodes a string by simple letter substitution; Replaces a letter with the 13th letter after it, in the alphabet.
 * @s: the string to encode
-* Return: the encoded message
+* Return: returns the encoded string: s
 */
 char *rot13(char *s)
 {
