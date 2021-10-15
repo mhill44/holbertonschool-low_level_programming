@@ -1,8 +1,9 @@
 #include "holberton.h"
 #include "main.h"
 /**
-* print_chessboard: function that prints the chessboard
+* print_chessboard - is a function that prints the chessboard
 * @a: is a 2d array, containing the different chess pieces
+* Return: void returns nothing
 */
 void print_chessboard(char (*a)[8])
 {
