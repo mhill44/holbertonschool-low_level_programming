@@ -2,7 +2,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* print_diagsums - a function that prints the sum of the two of the ints: \
+* print_diagsums - prints the sum of the two of the ints diag
 * @a: is the square matrix of integers
 * @size: is the size of the square matrix
 * Return: void returns nothing
