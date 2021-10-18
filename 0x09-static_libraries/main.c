@@ -1,4 +1,5 @@
 #include "main.h"
+#include "holberton.h"
 /**
 * *_puts - is function that is custom for puts
 * return: void returns nothing
