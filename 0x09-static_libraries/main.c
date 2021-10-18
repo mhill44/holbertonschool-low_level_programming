@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* _puts - is function that is custom for puts
-* void returns nothing
+* *_puts - is function that is custom for puts
+* return: void returns nothing
 */
 int main(void)
 {
