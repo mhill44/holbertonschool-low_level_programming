@@ -1,6 +1,18 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
+* _strlen - function returns the length of a string
+* @s: is the string to check
+* Return: returns the length of the string
+*/
+int _strlen(char *s)
+{
+int i;
+for (i = 0; s[i] != '\0'; i++)
+;
+return (i);
+}
+/**
 * argstostr - function concantenate all the command line arguments
 * @ac: is the number of arguments
 * @av: is the argument values
@@ -31,16 +43,4 @@ c++;
 }
 cat[c] = '\0';
 return (cat);
-}
-/**
-* _strlen - function returns the length of a string
-* @s: is the string to check
-* Return: returns the length of the string
-*/
-int _strlen(char *s)
-{
-int i;
-for (i = 0; s[i] != '\0'; i++)
-;
-return (i);
 }
