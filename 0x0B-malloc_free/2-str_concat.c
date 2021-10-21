@@ -1,6 +1,18 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
+* _strlen - Return the length of a string
+* @s: The string to check
+* Return: The length of the string
+*/
+int _strlen(char *s)
+{
+int i;
+for (i = 0; s[i] != '\0'; i++)
+;
+return (i);
+}
+/**
 * str_concat - concatenates two strings
 * @s1: string 1
 * @s2: string 2
@@ -28,16 +40,4 @@ i++;
 }
 cat[i] = '\0';
 return (cat);
-}
-/**
-* _strlen - Return the length of a string
-* @s: The string to check
-* Return: The length of the string
-*/
-int _strlen(char *s)
-{
-int i;
-for (i = 0; s[i] != '\0'; i++)
-;
-return (i);
 }
