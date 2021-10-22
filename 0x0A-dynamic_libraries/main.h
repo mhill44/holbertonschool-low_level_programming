@@ -1,6 +1,7 @@
 #define HOLBERTON_H
 #include <stdio.h>
 #include <stddef.h>
+#include "holberton.h"
 /**
 * void positive_or_negative(int i);
 * #endif HOLBERTON_H
@@ -30,3 +31,4 @@ void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
 void print_line(int n);
+int _strlen(char *s);
