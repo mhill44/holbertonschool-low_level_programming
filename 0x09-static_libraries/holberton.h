@@ -1,6 +1,6 @@
 #ifndef FILE_HOLBERTON
 #define FILE_HOLBERTON
-#include "holberton.h"
+#include "main.h"
 
 int _putchar(char c);
 int _islower(int c);
