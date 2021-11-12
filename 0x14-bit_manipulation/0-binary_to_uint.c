@@ -1,7 +1,21 @@
 #include <stdio.h>
 #include "holberton.h"
 int _strlen(const char *s);
+/**
+ * _strlen - a function that finds a length of a string
+ * @s: the string to check
+ *
+ * Return: the length of the string
+ */
+int _strlen(const char *s)
+{
+	int i;
 
+	for (i = 0; s[i] != '\0'; i++)
+		;
+
+	return (i);
+}
 /**
  * binary_to_uint - a function that converts a binary number to an unsigned
  * @b: a pointer to a string of 0 and 1 chars
@@ -32,19 +46,4 @@ unsigned int binary_to_uint(const char *b)
 	base *= 2;
 	}
 	return (uint);
-}
-/**
- * _strlen - a function that finds a length of a string
- * @s: the string to check
- *
- * Return: the length of the string
- */
-int _strlen(const char *s)
-{
-	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
-		;
-
-	return (i);
 }
