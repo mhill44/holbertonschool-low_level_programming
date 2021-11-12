@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "holberton.h"
-int _strlen(const char *s);
 /**
 * _strlen - this is a function that finds a length of a string
 * @s: this is the string to check
@@ -14,10 +13,10 @@ for (i = 0; s[i] != '\0'; i++)
 return (i);
 }
 /**
-* binary_to_uint - is a function that converts a binary number to an unsigned
+* binary_to_uint - is a function that converts a binary number to u.s.
 * @b: this is a pointer to a string of 0 and 1 chars
-* Return: returns the converted number, or 0 if there is one or more chars in
-* string b that is not 0 or 1 or if b is NULL
+* Return: returns the converted number, or 0 if there is one or more 
+* chars in the string b that is not 0 or 1 or if b is NULL
 */
 unsigned int binary_to_uint(const char *b)
 {
