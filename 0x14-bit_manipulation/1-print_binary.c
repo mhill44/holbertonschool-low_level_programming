@@ -1,14 +1,24 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
-* print_binary - is a function that prints the binary representation
-* of a number
-* @n: this is the number
+* print_binary - funct prints the binary equivalent of a decimal number
+* @n: is the number to print in binary
 * Return: void returns nothing
 */
 void print_binary(unsigned long int n)
 {
-if (n > 1)
-print_binary(n >> 1);
-_putchar((n & 1) + '0');
+int i, count = 0;
+unsigned long int current;
+for (i = 63; i >= 0; i--)
+{
+current = n >> i;
+if (current & 1)
+{
+_putchar('1');
+count++;
+}
+else if (count)
+_putchar('0');
+}
+if (!count)
+_putchar('0');
 }
