@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "holberton.h"
-#include <stdlib.h>
 int _strlen(const char *s);
 /**
 * _strlen - function to return the length of a string
