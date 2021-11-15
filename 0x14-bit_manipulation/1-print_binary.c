@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * print_binary - funct prints the binary equivalent of a decimal number
 * @n: is the number to print in binary
