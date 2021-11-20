@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 /**
 * read_textfile - this is a function that reads a text file and prints it

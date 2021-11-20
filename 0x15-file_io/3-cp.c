@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 void errClose(char *message, int fd, int status);
 void err(char *message, char *file, int status);
 /**
