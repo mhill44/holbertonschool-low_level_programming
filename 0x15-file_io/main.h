@@ -1,11 +1,9 @@
-i#fndef HOLBERTON_H
-#define HOLBERTON_H /* HOLBERTON_H */
-
+#ifndef MAIN_H
+#define MAIN_H /* MAIN_H */
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-
 #include <unistd.h>
 
 ssize_t read_textfile(const char *filename, size_t letters);
@@ -14,4 +12,4 @@ int append_text_to_file(const char *filename, char *text_content);
 
 int _putchar(char c);
 
-#endif
+#endif /* MAIN_H */
