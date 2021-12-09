@@ -1,1 +1,1 @@
-  mhill44 deoing the 0x18-doubly_linked_lists assignment
+mhill44 doing the 0x18-doubly_linked_lists assignment.
