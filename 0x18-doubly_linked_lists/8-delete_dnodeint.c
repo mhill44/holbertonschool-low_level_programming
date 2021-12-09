@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- dlistint_len - a function that prints all the elements of a dlistint_t
+ * dlistint_len - a function that prints all the elements of a dlistint_t
 * @h: the pointer to dlistint_t
 * Return: the number of elements
 */
@@ -16,7 +16,7 @@ elements++;
 return (elements);
 }
 /**
- * delete_dnodeint_at_index - a function that deletes the node at index
+* delete_dnodeint_at_index - a function that deletes the node at index
 * of a dlistint_t linked list
 * @head: double pointer to the head of the list
 * @index:the index of the node to delete
