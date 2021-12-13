@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /**
-* free_list - function that frees a linked list
-* @head: hash_node_t is list to be freed
+* free_list - This function frees a linked list
+* @head: is the hash_node_t list to be freed
 */
 void free_list(hash_node_t *head)
 {
@@ -16,7 +16,7 @@ head = temp;
 }
 }
 /**
-* hash_table_delete - function deletes a hash table
+* hash_table_delete -function deletes a hash table
 * @ht: is the hash table to be deleted
 */
 void hash_table_delete(hash_table_t *ht)
