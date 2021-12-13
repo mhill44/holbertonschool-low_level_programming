@@ -1,4 +1,4 @@
-#include "hashtables.h"
+#include "hash_tables.h"
 /**
 * print_list - this prints all the elements of a linked list
 * @h: is the pointer to the hash_node_t list to print

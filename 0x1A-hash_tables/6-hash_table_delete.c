@@ -1,4 +1,4 @@
-#include "hashtables.h"
+#include "hash_tables.h"
 /**
 * free_list - function that frees a linked list
 * @head: hash_node_t is list to be freed

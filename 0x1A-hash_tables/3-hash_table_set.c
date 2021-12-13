@@ -1,4 +1,4 @@
-#include "hashtables.h"
+#include "hash_tables.h"
 /**
 * replace_value - this replaces the value at a pre-existing key
 * @ht: is the double pointer to the hash_node_t list

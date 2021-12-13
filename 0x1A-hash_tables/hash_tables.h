@@ -1,14 +1,15 @@
-#ifndef _HASH_TABLES_
-#define _HASH_TABLES_
-#include <stdlib.h>
-#include <string.h>
+#ifndef HASH_TABLES_H
+#define HASH_TABLES_H
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
 /**
-* struct hash_node_s - Is a Node of a hash table
-* @key: This Is The key, string
+* struct hash_node_s - is a node of a hash table
+* @key: Is the key, string
 * The key is unique in the HashTable
-* @value: This Is The value corresponding to a key
-* @next: Is A pointer to the next node of the List
+* @value: Is The value corresponding to a key
+* @next: this is a pointer to the next node of the List
 */
 typedef struct hash_node_s
 {
@@ -17,29 +18,74 @@ char *value;
 struct hash_node_s *next;
 } hash_node_t;
 /**
-* struct hash_table_s - The Hash table data structure
-* @size: The size of the array
-* @array: An array of size @size
-* Each cell of this array is a pointer to the first node of a linked list,
-* because we want the HashTable to use chain collision handling
+* struct hash_table_s - This is the Hash table data structure
+* @size: This is The size of the array
+* @array: this is An array of size @size
+* Each cell / index / block of this array is a pointer to the first
+* node of a linked list, cause we want our HashTable to use
+* a Chaining collision handling
 */
 typedef struct hash_table_s
 {
 unsigned long int size;
 hash_node_t **array;
 } hash_table_t;
-/**
-* last functions
-*/
 hash_table_t *hash_table_create(unsigned long int size);
 unsigned long int hash_djb2(const unsigned char *str);
 unsigned long int key_index(const unsigned char *key, unsigned long int size);
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
-hash_node_t *add_node(hash_node_t **head, const char *key, const char *value)
-int attach_node_to_ht(hash_table_t *ht, hash_node_t *node);
 char *hash_table_get(const hash_table_t *ht, const char *key);
 void hash_table_print(const hash_table_t *ht);
 void hash_table_delete(hash_table_t *ht);
-void freenode(hash_node_t *node);
+void replace_value(hash_node_t **ht, const char *key, const char *value);
+int check_key(hash_node_t *ht, const char *key);
+hash_node_t *add_node(hash_node_t **head, const char *key, const char *value);
+void print_list(hash_node_t *h);
+void free_list(hash_node_t *head);
+/**
+* struct shash_node_s - Is the Node of a sorted hash table
+* @key: Is The key, a string
+* The key is unique in the HashTable
+* @value: Is the value corresponding to a key
+* @next: Is A pointer to the next node of the List
+* @sprev: Is A pointer to the previous element of the sorted linked list
+* @snext: Is A pointer to the next element of the sorted linked list
+*/
+typedef struct shash_node_s
+{
+char *key;
+char *value;
+struct shash_node_s *next;
+struct shash_node_s *sprev;
+struct shash_node_s *snext;
+} shash_node_t;
+/**
+* struct shash_table_s - Is a Sorted hash table data structure
+* @size: Is the The size of the array
+* @array: Is An array of size @size
+* Each cell of this array is a pointer to the first node of a linked list,
+* because we want our HashTable to use a Chaining collision handling
+* @shead: Is A pointer to the first element of the sorted linked list
+* @stail: Is A pointer to the last element of the sorted linked list
+*/
+typedef struct shash_table_s
+{
+unsigned long int size;
+shash_node_t **array;
+shash_node_t *shead;
+shash_node_t *stail;
+} shash_table_t;
+shash_table_t *shash_table_create(unsigned long int size);
+int shash_table_set(shash_table_t *ht, const char *key, const char *value);
+char *shash_table_get(const shash_table_t *ht, const char *key);
+void shash_table_print(const shash_table_t *ht);
+void shash_table_print_rev(const shash_table_t *ht);
+void shash_table_delete(shash_table_t *ht);
+int replace_value_s(shash_node_t **ht, const char *key, const char *value);
+int check_key_s(shash_node_t *ht, const char *key);
+shash_node_t *add_node_s(shash_node_t **head,
+const char *key, const char *value);
+void insert_sort(shash_node_t *node, shash_table_t *ht);
+void free_list_s(shash_node_t *head);
 
 #endif
