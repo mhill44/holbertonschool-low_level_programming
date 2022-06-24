@@ -1,36 +1,14 @@
 #include "search_algos.h"
-
 /**
- * advanced_binary - search  an array of integers
- * @array: pointer to the first element of the array to search in
- * @size: number element in array
- * @value: is value for search
- * Return: return the first index where value is located or -1 if is none
+ * aaa - searches an array of integers
+ * @array: the pointer to the first element of the array to search in
+ * @size: is the number element in array
+ * @value: is the value for search
+ * @l: is theh low array idx
+ * @h: is the high array idx
+ * Return: return sthe first index where value is located or -1 if is none
  * if array is NULL return -1
- * Every time you compare a value in the array to the value you are searching
- * you have to print this value
- */
-int advanced_binary(int *array, size_t size, int value)
-{
-	size_t h = size - 1, l = 0;
-	int p;
-
-	if (array == NULL)
-		return (-1);
-	p = (aaa(array, size, value, l, h));
-	return (p);
-}
-
-/**
- * aaa - search  an array of integers
- * @array: pointer to the first element of the array to search in
- * @size: number element in array
- * @value: is value for search
- * @l: low array idx
- * @h: high array idx
- * Return: return the first index where value is located or -1 if is none
- * if array is NULL return -1
- * Every time you compare a value in the array to the value you are searching
+ * Every time we compare a value in the array to the value, we are searching
  * you have to print this value
  */
 int aaa(int *array, size_t size, int value, int l, int h)
@@ -59,6 +37,24 @@ int aaa(int *array, size_t size, int value, int l, int h)
 	else
 		return (m);
 	return (aaa(array, size, value, l, h));
+}
+/**
+ * advanced_binary - searches through an array of integers
+ * @array: is pointer to the first element of the array to search in
+ * @size: is number element in array
+ * @value: is the value for search
+ * Return: returns the first index where value is located or -1 if is none
+ * if array is NULL, return -1
+ * Every time we compare a value in the array to the value you are searching
+ * we have to print the value
+ */
+int advanced_binary(int *array, size_t size, int value)
+{
+	size_t h = size - 1, l = 0;
+	int p;
 
-
+	if (array == NULL)
+		return (-1);
+	p = (aaa(array, size, value, l, h));
+	return (p);
 }
