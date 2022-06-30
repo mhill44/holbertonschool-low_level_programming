@@ -4,7 +4,7 @@
 #include "search_algos.h"
 
 /**
- * linear_skip - this optimizes the time complex. of a search
+ * linear_skip - this optimizes the time complex. of search
  * in a single linked list
  *
  * @list: this is the List
