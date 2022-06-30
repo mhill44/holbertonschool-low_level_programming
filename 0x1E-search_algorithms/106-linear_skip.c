@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "head.h"
+#include "search_algos.h"
 
 /**
  * linear_skip - this optimizes the time complex. of a search
